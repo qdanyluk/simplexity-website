@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/roadmapplanning",
+      "destination": "https://roadmap-planning-tau.vercel.app"
+    },
+    {
+      "source": "/roadmapplanning/:path*",
+      "destination": "https://roadmap-planning-tau.vercel.app/:path*"
+    }
+  ]
+}
